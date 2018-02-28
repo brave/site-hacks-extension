@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Brave Site Hacks",
+  "description": "Fixes to individual sites to account for Brave payments",
+  "version": "1.0",
+  "permissions": [
+    "webRequest"
+  ],
+  "background": {
+    "scripts": ["src/background.js"]
+  }
+}
